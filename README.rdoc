@@ -1,0 +1,19 @@
+== Behaviours
+
+A collection of unobtrusive behaviours to be used with Dan Webb's lowpro javascript library.
+
+Includes:
+
+* CalendarDateSelector -- requires the calendar_date_select library
+
+== Usage
+
+  ./script/plugin install git://github.com/dwg/behaviours.git
+
+  ./script/generate behaviours
+  
+  <%= javascript_include_tag :behaviours %>
+
+== Author
+
+Arni Einarsson
